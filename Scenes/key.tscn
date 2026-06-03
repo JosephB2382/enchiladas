@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://dswlhsb1c0vb6" path="res://Scripts/key.gd" id="1_udxw8"]
 [ext_resource type="Texture2D" uid="uid://dvehv5ue6ao5u" path="res://Assets/Free - Raven Fantasy Icons/Full Spritesheet/16x16.png" id="1_ut0wq"]
-[ext_resource type="AudioStream" uid="uid://thl72fg0ejxt" path="res://Audio/400 Sounds Pack/Items/coin_collect.wav" id="3_brn0f"]
+[ext_resource type="AudioStream" uid="uid://thl72fg0ejxt" path="res://Audio/coin_collect.wav" id="3_brn0f"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_udxw8"]
 atlas = ExtResource("1_ut0wq")
