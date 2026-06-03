@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bt3ka5yhdal78"]
+
+[ext_resource type="AudioStream" uid="uid://dfd7ypn0uvqoy" path="res://Audio/Cozy Tunes v1.5.2/Cozy Tunes/Audio/ogg/Floating Dream.ogg" id="1_kajln"]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" unique_id=107783252]
+stream = ExtResource("1_kajln")
+autoplay = true
+bus = &"Music"

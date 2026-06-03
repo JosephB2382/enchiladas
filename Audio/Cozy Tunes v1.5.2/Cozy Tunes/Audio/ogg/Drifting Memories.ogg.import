@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dk5g7pelq0qtj"
+path="res://.godot/imported/Drifting Memories.ogg-b9c749b37e80927d4f43c3b7299af9fd.oggvorbisstr"
+
+[deps]
+
+source_file="res://Audio/Cozy Tunes v1.5.2/Cozy Tunes/Audio/ogg/Drifting Memories.ogg"
+dest_files=["res://.godot/imported/Drifting Memories.ogg-b9c749b37e80927d4f43c3b7299af9fd.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://mxnfs266muo7"
+path="res://.godot/imported/Forgotten Biomes.ogg-089136b9e45f0308e1329f9a44633eed.oggvorbisstr"
+
+[deps]
+
+source_file="res://Audio/Cozy Tunes v1.5.2/Cozy Tunes/Audio/ogg/Forgotten Biomes.ogg"
+dest_files=["res://.godot/imported/Forgotten Biomes.ogg-089136b9e45f0308e1329f9a44633eed.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
