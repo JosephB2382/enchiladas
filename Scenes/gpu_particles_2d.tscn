@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://csf7xufrk8hhe"]
+
+[ext_resource type="Script" uid="uid://bwhpeywaf2wvi" path="res://Scripts/gpu_particles_2d.gd" id="1_7muxf"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_yddnh"]
+particle_flag_disable_z = true
+direction = Vector3(0, 0, 0)
+spread = 180.0
+initial_velocity_min = 100.0
+initial_velocity_max = 200.0
+gravity = Vector3(0, 300, 0)
+
+[node name="DrakeDeathParticles" type="GPUParticles2D" unique_id=329071707]
+emitting = false
+amount = 17
+one_shot = true
+explosiveness = 1.0
+process_material = SubResource("ParticleProcessMaterial_yddnh")
+script = ExtResource("1_7muxf")
+
+[connection signal="finished" from="." to="." method="_on_finished"]

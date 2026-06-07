@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://dqmjm2703g3yh" path="res://Assets/Basic Asset Pack/Basic Dragon Animations/Viridian Drake/ViridianDrake.png" id="1_a0psy"]
 [ext_resource type="Script" uid="uid://85be2vaxtldd" path="res://Scripts/drake.gd" id="1_n8xxy"]
 [ext_resource type="PackedScene" uid="uid://s5gubiw6hbdn" path="res://Scenes/killzone.tscn" id="2_n8xxy"]
+[ext_resource type="Script" uid="uid://e81dmfxeit46" path="res://Scripts/drake_head.gd" id="4_6qdvj"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6qdvj"]
 atlas = ExtResource("1_a0psy")
@@ -43,6 +44,9 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_n576s"]
 size = Vector2(13, 8)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dihmt"]
+size = Vector2(11, 2)
+
 [node name="Drake" type="Node2D" unique_id=1500750854]
 script = ExtResource("1_n8xxy")
 
@@ -51,7 +55,18 @@ sprite_frames = SubResource("SpriteFrames_hpxef")
 autoplay = "default"
 
 [node name="killzone" parent="." unique_id=2116034839 instance=ExtResource("2_n8xxy")]
+position = Vector2(0, 2)
+scale = Vector2(1, 0.6400002)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="killzone" unique_id=1614314364]
 position = Vector2(-0.5, 1)
 shape = SubResource("RectangleShape2D_n576s")
+
+[node name="DrakeHead" type="Area2D" parent="." unique_id=1433204617]
+script = ExtResource("4_6qdvj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DrakeHead" unique_id=2087442462]
+position = Vector2(-0.5, -5)
+shape = SubResource("RectangleShape2D_dihmt")
+
+[connection signal="body_entered" from="DrakeHead" to="DrakeHead" method="_on_body_entered"]

@@ -661,8 +661,8 @@ position = Vector2(-119, 144)
 [node name="Drakes" type="Node2D" parent="." unique_id=1839281231]
 
 [node name="Drake" parent="Drakes" unique_id=1500750854 instance=ExtResource("4_jjvhh")]
-position = Vector2(351, 117)
+position = Vector2(361, 117)
 
 [node name="Drake2" parent="Drakes" unique_id=1078032512 instance=ExtResource("4_jjvhh")]
-position = Vector2(648, -59)
+position = Vector2(652, -59)
 speed = 50.0

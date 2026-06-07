@@ -55,4 +55,6 @@ func _physics_process(delta: float) -> void:
 		velocity.x = 0
 	move_and_slide()
 
+func jump(multiplier):
+	velocity.y = JUMP_VELOCITY * multiplier
 	
