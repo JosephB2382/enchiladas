@@ -45,7 +45,7 @@ animations = [{
 size = Vector2(13, 8)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dihmt"]
-size = Vector2(11, 2)
+size = Vector2(9, 2)
 
 [node name="Drake" type="Node2D" unique_id=1500750854]
 script = ExtResource("1_n8xxy")

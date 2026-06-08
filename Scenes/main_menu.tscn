@@ -1,0 +1,63 @@
+[gd_scene format=3 uid="uid://cjocufnnbs8lm"]
+
+[ext_resource type="Script" uid="uid://qnv37ltlwphg" path="res://Scripts/control.gd" id="1_48xlc"]
+[ext_resource type="FontFile" uid="uid://d1qstadtn1nx0" path="res://Assets/PixelOperator8-Bold.ttf" id="2_1ehe0"]
+[ext_resource type="FontFile" uid="uid://b4asaeq8agnxo" path="res://Assets/Fonts.ttf" id="3_1ehe0"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ce3w2"]
+
+[node name="mainMenu" type="Control" unique_id=1713102021]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_48xlc")
+
+[node name="Panel" type="Panel" parent="." unique_id=1079960890]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 647.0
+theme_override_styles/panel = SubResource("StyleBoxTexture_ce3w2")
+
+[node name="mainMenuButtons" type="VBoxContainer" parent="." unique_id=1629847741]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 323.0
+offset_top = 98.0
+offset_right = 793.0
+offset_bottom = 256.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="start" type="Button" parent="mainMenuButtons" unique_id=1211401254]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_1ehe0")
+theme_override_font_sizes/font_size = 30
+text = "Start"
+
+[node name="quit" type="Button" parent="mainMenuButtons" unique_id=798236449]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_1ehe0")
+theme_override_font_sizes/font_size = 30
+text = "Quit"
+
+[node name="Title" type="Label" parent="." unique_id=1519728469]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 269.0
+offset_top = 21.0
+offset_right = 844.0
+offset_bottom = 72.0
+grow_horizontal = 2
+theme_override_fonts/font = ExtResource("3_1ehe0")
+theme_override_font_sizes/font_size = 50
+text = "Dungeon Knight"
+
+[connection signal="pressed" from="mainMenuButtons/start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="mainMenuButtons/quit" to="." method="_on_quit_pressed"]

@@ -1,16 +1,16 @@
-[gd_scene format=4 uid="uid://b3sj187lll6rw"]
+[gd_scene format=4 uid="uid://bw2h14rp3k2r3"]
 
-[ext_resource type="Texture2D" uid="uid://uw86ldphscyy" path="res://Assets/Dungeon Tile Set.png" id="1_bo1nx"]
-[ext_resource type="PackedScene" uid="uid://bn0u43l80iqte" path="res://Scenes/player.tscn" id="1_jjgbg"]
-[ext_resource type="PackedScene" uid="uid://s5gubiw6hbdn" path="res://Scenes/killzone.tscn" id="3_8gbba"]
-[ext_resource type="PackedScene" uid="uid://da50n1xqshyr2" path="res://Scenes/drake.tscn" id="4_jjvhh"]
-[ext_resource type="PackedScene" uid="uid://bjkp1cg212714" path="res://Scenes/ladder.tscn" id="5_kry3j"]
-[ext_resource type="PackedScene" uid="uid://vjshx85ypdk7" path="res://Scenes/platform.tscn" id="6_21xkr"]
-[ext_resource type="PackedScene" uid="uid://6p1ll4tcd33y" path="res://Scenes/key.tscn" id="7_6bp64"]
-[ext_resource type="PackedScene" uid="uid://cbf1oem8ueah5" path="res://Scenes/levelexit.tscn" id="8_344ge"]
+[ext_resource type="Texture2D" uid="uid://uw86ldphscyy" path="res://Assets/Dungeon Tile Set.png" id="1_mhlpv"]
+[ext_resource type="PackedScene" uid="uid://bn0u43l80iqte" path="res://Scenes/player.tscn" id="2_ng020"]
+[ext_resource type="PackedScene" uid="uid://s5gubiw6hbdn" path="res://Scenes/killzone.tscn" id="3_vn2uo"]
+[ext_resource type="PackedScene" uid="uid://bjkp1cg212714" path="res://Scenes/ladder.tscn" id="4_mtqcm"]
+[ext_resource type="PackedScene" uid="uid://vjshx85ypdk7" path="res://Scenes/platform.tscn" id="5_mmf1u"]
+[ext_resource type="PackedScene" uid="uid://6p1ll4tcd33y" path="res://Scenes/key.tscn" id="6_vn460"]
+[ext_resource type="PackedScene" uid="uid://da50n1xqshyr2" path="res://Scenes/drake.tscn" id="7_r8hce"]
+[ext_resource type="PackedScene" uid="uid://cbf1oem8ueah5" path="res://Scenes/levelexit.tscn" id="8_ca0bt"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8gbba"]
-texture = ExtResource("1_bo1nx")
+texture = ExtResource("1_mhlpv")
 1:1/0 = 0
 1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 2:1/0 = 0
@@ -211,7 +211,7 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_8gbba")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jjvhh"]
-texture = ExtResource("1_bo1nx")
+texture = ExtResource("1_mhlpv")
 1:1/0 = 0
 2:1/0 = 0
 3:1/0 = 0
@@ -350,7 +350,7 @@ texture = ExtResource("1_bo1nx")
 sources/0 = SubResource("TileSetAtlasSource_jjvhh")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6bp64"]
-texture = ExtResource("1_bo1nx")
+texture = ExtResource("1_mhlpv")
 1:1/0 = 0
 2:1/0 = 0
 3:1/0 = 0
@@ -591,7 +591,7 @@ z_index = 6
 tile_map_data = PackedByteArray("AAAkAOj/AAALAA4AAFAkAOn/AAALAA4AAFAkAOr/AAALAA4AAFAkAOv/AAAKAA4AAGAjAOj/AAAMAA4AAAAjAOn/AAAMAA4AAAAjAOr/AAAMAA4AAAAjAOv/AAAMAA4AAAAiAOj/AAAMAA4AAAAiAOn/AAAMAA4AAAAiAOr/AAAMAA4AAAAiAOv/AAAMAA4AAAAiAOz/AAAMAA4AAAAiAO3/AAANAA4AAAAjAOz/AAANAA4AAAAhAO7/AAANAA4AAAAgAO7/AAAMAA4AAAAfAO7/AAAMAA4AAAAeAO7/AAAMAA4AAAAhAOj/AAAMAA4AAFAgAOn/AAAMAA4AAFAgAOr/AAAMAA4AAFAgAOv/AAAMAA4AAFAgAOz/AAAMAA4AAFAgAO3/AAAMAA4AAFAhAO3/AAAMAA4AAFAhAOz/AAAMAA4AAFAhAOv/AAAMAA4AAFAhAOr/AAAMAA4AAFAhAOn/AAAMAA4AAFAgAOj/AAAMAA4AAFAfAOj/AAAMAA4AAFAeAOj/AAAMAA4AAFAeAOn/AAAMAA4AAFAeAOr/AAAMAA4AAFAeAOv/AAAMAA4AAFAeAOz/AAAMAA4AAFAfAOz/AAAMAA4AAFAfAO3/AAAMAA4AAFAfAOv/AAAMAA4AAFAfAOr/AAAMAA4AAFAfAOn/AAAMAA4AAFAdAO3/AAALAA4AAAAeAO3/AAAMAA4AAFAdAO7/AAAKAA4AAAAcAO3/AAAKAA4AAAAcAOz/AAALAA4AAAAbAOz/AAAKAA4AAAAbAOv/AAALAA4AAAAaAOr/AAALAA4AAAAZAOn/AAALAA4AAAAYAOj/AAALAA4AAAAdAOz/AAALAA4AAAAcAOv/AAALAA4AAAAbAOr/AAALAA4AAAAaAOn/AAALAA4AAAAZAOj/AAALAA4AAAAdAOv/AAALAA4AAGAdAOr/AAALAA4AAGAdAOn/AAALAA4AAGAdAOj/AAALAA4AAGAcAOj/AAALAA4AAGAcAOn/AAALAA4AAGAcAOr/AAALAA4AAGAbAOn/AAALAA4AAGAbAOj/AAALAA4AAGAaAOj/AAALAA4AAGAaAOv/AAAKAA4AAAAZAOr/AAAKAA4AAAAYAOn/AAAKAA4AAAAXAOj/AAAKAA4AAAA=")
 tile_set = SubResource("TileSet_344ge")
 
-[node name="player" parent="." unique_id=1962727868 instance=ExtResource("1_jjgbg")]
+[node name="player" parent="." unique_id=1962727868 instance=ExtResource("2_ng020")]
 position = Vector2(43, 49)
 
 [node name="Camera2D" type="Camera2D" parent="player" unique_id=993302345]
@@ -601,45 +601,45 @@ limit_bottom = 170
 limit_smoothed = true
 position_smoothing_enabled = true
 
-[node name="killzone" parent="." unique_id=2116034839 instance=ExtResource("3_8gbba")]
+[node name="killzone" parent="." unique_id=2116034839 instance=ExtResource("3_vn2uo")]
 position = Vector2(3, 147)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="killzone" unique_id=1520386381]
 shape = SubResource("WorldBoundaryShape2D_8gbba")
 
-[node name="killzone2" parent="." unique_id=1449837381 instance=ExtResource("3_8gbba")]
+[node name="killzone2" parent="." unique_id=1449837381 instance=ExtResource("3_vn2uo")]
 position = Vector2(3, 147)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="killzone2" unique_id=1722942967]
 position = Vector2(437, -8)
 shape = SubResource("RectangleShape2D_8gbba")
 
-[node name="ladder" parent="." unique_id=1774465492 instance=ExtResource("5_kry3j")]
+[node name="ladder" parent="." unique_id=1774465492 instance=ExtResource("4_mtqcm")]
 position = Vector2(757, 8)
 
 [node name="platforms" type="Node2D" parent="." unique_id=387623149]
 
-[node name="platform" parent="platforms" unique_id=79737562 instance=ExtResource("6_21xkr")]
+[node name="platform" parent="platforms" unique_id=79737562 instance=ExtResource("5_mmf1u")]
 position = Vector2(504, -82)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="platforms/platform" unique_id=2120807512]
 libraries/ = SubResource("AnimationLibrary_344ge")
 autoplay = &"move"
 
-[node name="platform2" parent="platforms" unique_id=1264709479 instance=ExtResource("6_21xkr")]
+[node name="platform2" parent="platforms" unique_id=1264709479 instance=ExtResource("5_mmf1u")]
 position = Vector2(214, 26)
 
-[node name="platform3" parent="platforms" unique_id=1273276885 instance=ExtResource("6_21xkr")]
+[node name="platform3" parent="platforms" unique_id=1273276885 instance=ExtResource("5_mmf1u")]
 position = Vector2(374, -116)
 
-[node name="platform4" parent="platforms" unique_id=454721426 instance=ExtResource("6_21xkr")]
+[node name="platform4" parent="platforms" unique_id=454721426 instance=ExtResource("5_mmf1u")]
 position = Vector2(438, -150)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="platforms/platform4" unique_id=744323822]
 libraries/ = SubResource("AnimationLibrary_d1ilt")
 autoplay = &"move"
 
-[node name="killzone3" parent="." unique_id=1689687194 instance=ExtResource("3_8gbba")]
+[node name="killzone3" parent="." unique_id=1689687194 instance=ExtResource("3_vn2uo")]
 position = Vector2(661, -199)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="killzone3" unique_id=1591309215]
@@ -647,29 +647,26 @@ position = Vector2(2.711792, 2.3981628)
 scale = Vector2(0.93707544, -0.3773558)
 shape = SubResource("RectangleShape2D_21xkr")
 
-[node name="ladder" parent="killzone3" unique_id=943245146 instance=ExtResource("5_kry3j")]
+[node name="ladder" parent="killzone3" unique_id=943245146 instance=ExtResource("4_mtqcm")]
 position = Vector2(147, -49)
 
 [node name="Keys" type="Node2D" parent="." unique_id=1461226248]
 position = Vector2(648, -59)
 
-[node name="key" parent="Keys" unique_id=1330154531 instance=ExtResource("7_6bp64")]
+[node name="key" parent="Keys" unique_id=1330154531 instance=ExtResource("6_vn460")]
 position = Vector2(-610, 19)
 
-[node name="key2" parent="Keys" unique_id=1094640729 instance=ExtResource("7_6bp64")]
+[node name="key2" parent="Keys" unique_id=1094640729 instance=ExtResource("6_vn460")]
 position = Vector2(-119, 144)
 
 [node name="Drakes" type="Node2D" parent="." unique_id=1839281231]
 
-[node name="Drake" parent="Drakes" unique_id=1500750854 instance=ExtResource("4_jjvhh")]
+[node name="Drake" parent="Drakes" unique_id=1500750854 instance=ExtResource("7_r8hce")]
 position = Vector2(361, 117)
 
-[node name="Drake2" parent="Drakes" unique_id=1078032512 instance=ExtResource("4_jjvhh")]
+[node name="Drake2" parent="Drakes" unique_id=1078032512 instance=ExtResource("7_r8hce")]
 position = Vector2(652, -59)
 speed = 50.0
 
-[node name="levelexit" parent="." unique_id=1765931712 instance=ExtResource("8_344ge")]
+[node name="levelexit" parent="." unique_id=1765931712 instance=ExtResource("8_ca0bt")]
 position = Vector2(318, -304)
-transition_type = "fade"
-next_scene = "res://Scenes/level2.tscn"
-duration = 1.0

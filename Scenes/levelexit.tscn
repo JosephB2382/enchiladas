@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://cbf1oem8ueah5"]
+
+[ext_resource type="Script" uid="uid://bcigobej13dnx" path="res://Scripts/levelexit.gd" id="1_eqj42"]
+[ext_resource type="Texture2D" uid="uid://uw86ldphscyy" path="res://Assets/Dungeon Tile Set.png" id="2_dqmp1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c4bnu"]
+atlas = ExtResource("2_dqmp1")
+region = Rect2(208, 160, 26, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_nrklc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c4bnu")
+}],
+"loop": true,
+"name": &"doorOpen",
+"speed": 1.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_eqbao"]
+size = Vector2(14, 29)
+
+[node name="levelexit" type="Area2D" unique_id=1765931712]
+script = ExtResource("1_eqj42")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2011200087]
+sprite_frames = SubResource("SpriteFrames_nrklc")
+animation = &"doorOpen"
+frame_progress = 0.73573595
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1402219388]
+position = Vector2(-5, 0.5)
+shape = SubResource("RectangleShape2D_eqbao")
